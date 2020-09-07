@@ -1,0 +1,25 @@
+.row{
+  display: block;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.title{
+  font-weight: 700;
+  font-size: large;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+@media(max-width: 767px){
+  .title{
+    text-align: center !important;
+  }
+}

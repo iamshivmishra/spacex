@@ -1,0 +1,43 @@
+.menu-container{
+    padding: 0px 10px;
+    background-color: white;
+    width: 221px;
+    height: 675px;
+    border-radius: 8px;
+    margin: 8px 20px;
+    text-align: center;
+}
+
+@media(max-width: 767px){
+    .menu-container{
+        width: 75%;
+    }
+}
+
+.year-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.year-label{
+    background-color: rgb(93, 206, 93);
+    color: white;
+    border-radius: 8px;
+    padding: 8px 19px;
+    margin: 8px 20px;
+    cursor: pointer;
+}
+
+.year-label:hover{
+    background-color: green !important;
+}
+
+.active{
+    background-color: green !important;
+}
+
+.color-black{
+    color: black !important;
+    font-weight: 500;
+}

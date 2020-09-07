@@ -1,0 +1,23 @@
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-color: lightgray;
+    box-sizing: border-box;
+    max-width: 1048px;
+}
+
+@media(max-width: 600px){
+    .home-container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .home-container{
+        max-width: 470px !important;
+    }
+}
+    
